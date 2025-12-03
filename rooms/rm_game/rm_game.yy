@@ -51,6 +51,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27326D45","properties":[],"isDnd":false,"objectId":{"name":"Object21","path":"objects/Object21/Object21.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.40262413,"scaleX":2.570513,"scaleY":2.9765625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":648.6891,"y":984.28394,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_CB85D5","properties":[],"isDnd":false,"objectId":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":512.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6504099D","properties":[],"isDnd":false,"objectId":{"name":"teleport","path":"objects/teleport/teleport.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1104.0,"y":1275.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6BA7D904","properties":[],"isDnd":false,"objectId":{"name":"obj_barrel_big","path":"objects/obj_barrel_big/obj_barrel_big.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.10087056,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1760.0,"y":608.0,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"floors","tilesetId":{"name":"ts_floor","path":"tilesets/ts_floor/ts_floor.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":79,"SerialiseHeight":63,"TileCompressedData":[
 -3,0,-76,-2147483648,-2,0,-77,-2147483648,-6,0,-20,-2147483648,-2,0,2,-2147483648,0,-49,-2147483648,-5,12,5,1,2,5,2,2,-4,1,4,2,1,1,4,-7,1,3,3,1,1,-51,-2147483648,1,15,-4,14,-8,1,1,2,-7,1,1,3,-3,1,3,2,1,1,-51,-2147483648,-20,0,-5,-2147483648,3,0,3,1,-55,-2147483648,-17,0,-4,-2147483648,3,0,2,
@@ -89,6 +90,7 @@
     {"name":"inst_41BA6CB3","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_768A6456","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_49156FCB","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_6BA7D904","path":"rooms/rm_game/rm_game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
