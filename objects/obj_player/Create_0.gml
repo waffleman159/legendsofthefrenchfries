@@ -5,7 +5,7 @@
 // pixels-per-second.
 move_speed = 3;
 
-
+team = "player";
 
 // ENEMY – Create
 
