@@ -88,7 +88,8 @@ break;
     // -----------------------
     // PLAYER wins → destroy ENEMY
     case "win":
-        message = "You Win!";
+        message = "You Win!"
+		move_speed = 5;
 
         
 if (!player_destroyed && instance_exists(player)) {

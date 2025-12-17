@@ -12,4 +12,5 @@ if (!instance_exists(obj_battle))
 
     // Optional: stop player movement
     // (depends on how you control the player)
+
 }

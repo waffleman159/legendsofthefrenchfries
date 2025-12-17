@@ -5,8 +5,7 @@
 if (instance_exists(obj_battle)) {
 
     // Stop all velocity and movement
-    hspeed = 0;
-    vspeed = 0;
+    move_speed = 0
 
     // Optional: switch to idle sprite
     if (sprite_index != spr_player_idle) {
@@ -21,7 +20,7 @@ if (instance_exists(obj_battle)) {
 // ---------------------------
 // 2. Normal movement code (only runs if no battle)
 
-var move_speed = 3;
+ move_speed = 3;
 
 // Keyboard input
 if (keyboard_check(vk_left))  x -= move_speed;
@@ -42,16 +41,7 @@ if (keyboard_check(vk_down))  y += move_speed;
 //move_speed = 4;
 
 // Freeze flags (optional, for battle)
-//hspeed = 0;
-//vspeed = 0;
 
-// Sprites
-//spr_player_idle = sprite_get("spr_player_idle"); // or your actual idle sprite
-//spr_player_walk = sprite_get("spr_player_walk"); // or your actual walking sprite
-
-// Set initial sprite
-//sprite_index = spr_player_idle;
-//image_index = 0;
 
 
 
