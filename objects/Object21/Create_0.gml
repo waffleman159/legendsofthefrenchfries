@@ -2,12 +2,11 @@
 // PLAYER – Create
 
 coins  = 0;
-hp     = 100;
-hp_max = 100;
+hp     = 75;
+hp_max = 75;
 team = "enemy";
 // VERY CLEAR PLAYER MOVES
 moves = [
-    { name: "Hero Punch", power: 10 },
-    { name: "Hero Kick",  power: 12 },
-    { name: "Hero Blast", power: 18 }
+    { name: "Slime Bite", power: 6 },
+    { name: "Slime Slap", power: 8 }
 ];
