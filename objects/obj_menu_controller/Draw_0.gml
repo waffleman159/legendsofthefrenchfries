@@ -18,9 +18,9 @@ for (var i = 0; i < array_length(menu_items); i++) {
     var xx = center_x - text_w * 0.5; // <-- actual centering
 
     if (i == selected) {
-        draw_set_color(c_yellow);
+        draw_set_color(c_black);
         draw_text(xx, yy, txt);
-        draw_set_color(c_white);
+        draw_set_color(c_blue);
     } else {
         draw_text(xx, yy, txt);
     }
