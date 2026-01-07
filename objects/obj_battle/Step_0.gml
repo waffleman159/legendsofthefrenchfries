@@ -92,6 +92,22 @@ break;
 		move_speed = 5;
 
         
+
+  if (!enemy_destroyed && instance_exists(enemy)) {
+            show_debug_message("WIN: destroying ENEMY instance id " + string(enemy.id));
+            with (enemy) instance_destroy();
+            enemy_destroyed = true;
+        }
+        if (end_timer < 0) {
+            end_timer = room_speed;
+            state = "battle_end";
+            show_debug_message("STATE CHANGE: battle_end");
+        }
+    break;
+    // -----------------------
+    // PLAYER loses → destroy PLAYER
+    case "lose":
+        message = "You Lose...";
 if (!player_destroyed && instance_exists(player)) {
             show_debug_message("LOSE: destroying PLAYER instance id " + string(player.id));
             with (player) instance_destroy();
@@ -104,25 +120,8 @@ if (!player_destroyed && instance_exists(player)) {
             show_debug_message("STATE CHANGE: battle_end");
         }
     break;
-
-    // -----------------------
-    // PLAYER loses → destroy PLAYER
-    case "lose":
-        message = "You Lose...";
-
         
-  if (!enemy_destroyed && instance_exists(enemy)) {
-            show_debug_message("WIN: destroying ENEMY instance id " + string(enemy.id));
-            with (enemy) instance_destroy();
-            enemy_destroyed = true;
-        }
-        if (end_timer < 0) {
-            end_timer = room_speed;
-            state = "battle_end";
-            show_debug_message("STATE CHANGE: battle_end");
-        }
-    break;
-
+  
     // -----------------------
     case "battle_end":
     // DEBUG: how many players/enemies are in the room?
