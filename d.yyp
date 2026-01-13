@@ -134,6 +134,7 @@
     {"id":{"name":"spr_pixel_side_Ice_Land","path":"sprites/spr_pixel_side_Ice_Land/spr_pixel_side_Ice_Land.yy",},"order":2,},
     {"id":{"name":"spr_pixel_side_Flameville","path":"sprites/spr_pixel_side_Flameville/spr_pixel_side_Flameville.yy",},"order":0,},
     {"id":{"name":"spr_gate_wood_2","path":"sprites/spr_gate_wood_2/spr_gate_wood_2.yy",},"order":11,},
+    {"id":{"name":"Object2136","path":"objects/Object2136/Object2136.yy",},"order":7,},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},"order":6,},
     {"id":{"name":"spr_bat_projectile","path":"sprites/spr_bat_projectile/spr_bat_projectile.yy",},"order":1,},
     {"id":{"name":"spr_gate_wood_1","path":"sprites/spr_gate_wood_1/spr_gate_wood_1.yy",},"order":10,},
