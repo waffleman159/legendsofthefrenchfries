@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object33",
+  "name": "panman",
   "spriteId": {
-    "name": "Sprite81",
-    "path": "sprites/Sprite81/Sprite81.yy",
+    "name": "Sprite80",
+    "path": "sprites/Sprite80/Sprite80.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,8 +25,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_combatant","path":"objects/obj_combatant/obj_combatant.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_combatant","path":"objects/obj_combatant/obj_combatant.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

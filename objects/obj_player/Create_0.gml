@@ -9,7 +9,7 @@ team = "player";
 
 // ENEMY – Create
 
-hp     = 90;
+hp     = 60;
 hp_max = 100;
 
 // VERY CLEAR ENEMY MOVES
