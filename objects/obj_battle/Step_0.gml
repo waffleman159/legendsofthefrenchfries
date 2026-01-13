@@ -93,7 +93,7 @@ break;
 
         
 
-  if (!enemy_destroyed && instance_exists(enemy)) {
+if (!enemy_destroyed && instance_exists(enemy)) {
             show_debug_message("WIN: destroying ENEMY instance id " + string(enemy.id));
             with (enemy) instance_destroy();
             enemy_destroyed = true;
@@ -122,6 +122,7 @@ if (!player_destroyed && instance_exists(player)) {
     break;
         
   
+
     // -----------------------
     case "battle_end":
     // DEBUG: how many players/enemies are in the room?

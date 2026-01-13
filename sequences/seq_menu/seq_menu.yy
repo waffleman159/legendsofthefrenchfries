@@ -158,6 +158,6 @@
   "eventStubScript": null,
   "parent": {
     "name": "Sequences",
-    "path": "folders/Shaders/Sequences.yy",
+    "path": "folders/Sequences.yy",
   },
 }

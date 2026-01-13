@@ -1,3 +1,4 @@
+
 /// Draw GUI – Battle HUD
 
 draw_set_color(c_white);
