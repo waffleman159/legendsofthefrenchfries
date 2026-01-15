@@ -13,6 +13,11 @@ moves = [
 
 
 
+// The movement speed of the
+// enemy along its path.
+move_speed = 2;
 
+
+path_start(path_to_follow, move_speed, path_action_continue, true);
 
 
