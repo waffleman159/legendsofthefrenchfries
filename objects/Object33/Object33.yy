@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Object33",
   "spriteId": {
-    "name": "Sprite81",
-    "path": "sprites/Sprite81/Sprite81.yy",
+    "name": "Sprite89",
+    "path": "sprites/Sprite89/Sprite89.yy",
   },
   "solid": false,
   "visible": true,
