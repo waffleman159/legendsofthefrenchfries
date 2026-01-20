@@ -9,15 +9,15 @@ team = "player";
 
 // ENEMY – Create
 
-hp     = 60;
-hp_max = 100;
+hp     = 500;
+hp_max = 500;
 
 // VERY CLEAR ENEMY MOVES
 moves = [
  
 	 { name: "Hero Punch", power: 10 },
     { name: "Hero Kick",  power: 12 },
-    { name: "Hero Blast", power: 18 }
+    { name: "Hero Blast", power: 25 }
 ];
 
 // Facing direction in degrees:

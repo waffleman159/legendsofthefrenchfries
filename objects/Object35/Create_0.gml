@@ -10,3 +10,5 @@ moves = [
     { name: "MAC SMACK",   power: 25 },
     { name: "SAUSEwer",    power: 10 },
 ];
+
+dead = false;
